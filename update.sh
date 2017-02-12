@@ -1,2 +1,2 @@
 #/bin/bash
-sudo pacman -Syyuu && sudo pacman -Rcs $(sudo pacman -Qdtq) && yaourt -Syyuu && yaourt -Rcs $(yaourt -Qdtq)
+sudo pacman -Syyuu && sudo pacman -Rs $(sudo pacman -Qdtq) && yaourt -Syyuu && yaourt -Rs $(yaourt -Qdtq)
